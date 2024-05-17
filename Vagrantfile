@@ -10,6 +10,6 @@ Vagrant.configure("2") do |config|
   echo "INSERT INTO gestion_libreria.libros (titulo, autor, anio_publicacion, genero, precio) VALUES">> /home/vagrant/datos_libros.sql
   echo "('Cien Años de Soledad', 'Gabriel García Márquez', 1605, 'Novela', 12.99),">> /home/vagrant/datos_libros.sql
   echo "('Cien Años de Soledad', 'Gabriel García Márquez', 1605, 'Novela', 12.99),">> /home/vagrant/datos_libros.sql
-  echo "('Cien Años de Soledad', 'Gabriel García Márquez', 1605, 'Novela', 12.99),">> /home/vagrant/datos_libros.sql
+  echo "('Cien Años de Soledad', 'Gabriel García Márquez', 1605, 'Novela', 12.99)">> /home/vagrant/datos_libros.sql
    SHELL
 end
